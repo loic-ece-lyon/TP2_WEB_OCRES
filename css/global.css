@@ -40,7 +40,7 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.8125em;
     color: #89949b;
     padding-top: 5px;
 }
@@ -57,13 +57,12 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: normal;
     color: #828c92;
 }
@@ -89,24 +88,23 @@ nav ul li:last-child {
 
 h1 {
     color: #4b5c66;
-
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 0.75em;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
+    font-size: 0.75em;
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
@@ -121,7 +119,7 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.875em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -141,7 +139,7 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-
+    font-size: 0.8125em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
@@ -155,7 +153,7 @@ input.submit {
 }
 
 .station {
-
+        font-size: 0.75em;
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
@@ -174,7 +172,7 @@ input.submit {
 
 
 #albums article {
-
+    font-size: 0.8125em;
     color: #89949b;
     margin: 10px 0;
 }
@@ -233,14 +231,15 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     h3{
         font-size: 1.25em;
     }
-    article{
-        font-size: 0.8125em;
+
+}
+
+@media  (max-width : 62em) {
+    .search{
+        display: none;
     }
-    station{
-        font-size: 0.75em;
+    .share{
+        display: none;
     }
-    input.search{
-        font-size:0.8125em ;
-    }
-    statLink
+    
 }
