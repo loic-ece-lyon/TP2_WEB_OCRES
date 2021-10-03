@@ -5,6 +5,8 @@
     font-weight: bold;
 }
 
+
+
 * { 
     font-family: 'My Lucida', Console;
 }
@@ -55,7 +57,7 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -87,7 +89,7 @@ nav ul li:last-child {
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+
     font-weight: normal;
     margin: 0 0 8px 0;
 }
@@ -125,7 +127,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+
     font-weight: normal;
     color: #4b5c66;
 }
@@ -139,7 +141,7 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 13px;
+
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
@@ -153,7 +155,7 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
@@ -172,7 +174,7 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+
     color: #89949b;
     margin: 10px 0;
 }
@@ -218,4 +220,27 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
+@media (min-width : 37.5em) and (max-width : 87.5em){
+    h1
+    {
+        font-size: 1.875em;
+    }
 
+    h2{
+        font-size: 1.563em;
+
+    }
+    h3{
+        font-size: 1.25em;
+    }
+    article{
+        font-size: 0.8125em;
+    }
+    station{
+        font-size: 0.75em;
+    }
+    input.search{
+        font-size:0.8125em ;
+    }
+    statLink
+}
